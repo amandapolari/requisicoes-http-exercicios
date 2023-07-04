@@ -1,6 +1,7 @@
 # HTTPS e Postman - Resolução
 
 ## Índice
+
 -   [1. Resolução Exercício 1](#1-resolução-exercício-1)
 -   [2. Resolução Exercício 2](#2-resolução-exercício-2)
 -   [3. Resolução Exercício 3](#3-resolução-exercício-3)
@@ -160,4 +161,71 @@ Obtendo o seguinte resultado da playlista verificada:
 
 ### 3. Resolução Exercício 3
 
----
+**[✔] a) Pesquise por uma das playlists que você criou.**
+
+-   `searchPlaylist` -> `Headers`:
+
+    ```
+    Authorization: "nome-sobrenome-turma"
+    ```
+
+-   `searchPlaylist` -> `Params`:
+
+    ```
+    name:"string"
+    ```
+
+    Obs: name -> nome da playlist ou parte dele
+
+-   Resultado:
+
+    Código:
+
+    ```
+    {
+    "result":
+    {
+        "quantity": 1,
+        "playlist": [
+            {
+                "id": "0c92f366-4648-4659-89fe-b0367ae81740",
+                "name": "playlist relaxar"
+            }
+        ]
+    }
+    }
+    ```
+
+    Status: 200 OK
+
+**[✔] b) Remova uma música de uma playlist.**
+
+-   `removeTrackFromPlaylist` -> `Headers`
+
+    ```
+    Authorization: "nome-sobrenome-turma"
+    ```
+
+-   `removeTrackFromPlaylist` -> `Params`:
+
+    -   playlistId: id da playlist
+    -   trackId: id da música
+
+-   Resultado:
+    `Status: 200 OK`
+
+**[✔] c) Delete outra playlist.**
+
+-   `deletePlaylist` -> `Headers`
+
+    ```
+    Authorization: "nome-sobrenome-turma"
+    ```
+
+-   `deletePlaylist` -> `Params`:
+
+    -   playlistId: id da playlist
+
+
+-   Resultado:
+    `Status: 200 OK`
