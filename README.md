@@ -10,8 +10,6 @@
 
 ## Índice
 
----
-
 -   [1. O que você precisa saber?](#1-o-que-você-precisa-saber)
 -   [2. Como eu vou executar os exercícios](#2-como-eu-vou-executar-os-exercícios)
 -   [3. Exercício 1](#3-exercício-1)
@@ -22,38 +20,28 @@
 
 ### 1. O que você precisa saber?
 
----
-
 1. Como usar o Postman
 2. Leitura da documentação da API
 3. Como fazer requisições para uma API e seus métodos
 
 ### 2. Como eu vou executar os exercícios?
 
----
-
 Hoje vamos treinar requisições usando o **Postman** e a API do **Labefy**.
 [Link para a documentação da API](https://documenter.getpostman.com/view/7549981/SztBc8eT?version=latest)
 
 ### 3. Exercício 1
-
----
 
 -   Antes de tudo leia toda a documentação com muita atenção
 -   Abra a coleção de requisições da API no Postman (Prática 0 da aula)
 
 ### 4. Exercício 2
 
----
-
 -   Crie **três playlists** .
 -   Verifique se elas foram criadas corretamente.
 -   Adicione **duas músicas** em cada uma delas.
 -   Verifique se as músicas foram adicionadas corretamente.
 
-### 5. Exercício 3
-
----
+### 5. Exercício 
 
 -   Pesquise por uma das playlists que você criou.
 -   Remova uma música de uma playlist.
@@ -61,13 +49,9 @@ Hoje vamos treinar requisições usando o **Postman** e a API do **Labefy**.
 
 ### 6. Minha Resolução
 
----
-
 -   Clique aqui para visualizar a [minha resolução](./RESOLUCAO.md).
 
 ### 7. Desenvolvedora
-
----
 
 Este projeto foi desenvolvido por:
 
