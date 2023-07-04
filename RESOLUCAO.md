@@ -41,7 +41,7 @@
 
     Obs: `name` -> é o nome da playlist que desejo criar.
 
-*   Resultado:
+*  `Resultado:`
 
     ```
     Status: 200 OK
