@@ -1,16 +1,11 @@
 # HTTPS e Postman - Resolução
 
 ## Índice
-
----
-
 -   [1. Resolução Exercício 1](#1-resolução-exercício-1)
 -   [2. Resolução Exercício 2](#2-resolução-exercício-2)
 -   [3. Resolução Exercício 3](#3-resolução-exercício-3)
 
 ### 1. Resolução Exercício 1
-
----
 
 [✔] Leitura desse material: [link para a documentação da API](https://documenter.getpostman.com/view/7549981/SztBc8eT?version=latest)
 
@@ -25,9 +20,7 @@
 
 ### 2. Resolução Exercício 2
 
----
-
-**a) Crie três playlists:**
+**[✔] a) Crie três playlists:**
 
 Em `createPlaylist` > `Headers`:
 
@@ -49,9 +42,7 @@ Clicando em `Send` e obtendo o resultado `200 OK`, significa que a playlist foi 
 
 Para criar mais duas playlist, repeti os passos anteriores mais duas vezes.
 
----
-
-**b) Verifique se elas foram criadas corretamente.**
+**[✔] b) Verifique se elas foram criadas corretamente.**
 
 Para realizar a verificação utilizei o `getAllPlaylists` da seguinte forma:
 
@@ -87,9 +78,7 @@ E obtive esse resultado:
 
 `Status: 200 OK`
 
----
-
-**c) Adicione duas músicas em cada uma delas.**
+**[✔] c) Adicione duas músicas em cada uma delas.**
 
 Para adicionar as músicas nas playlists usei o `
 addTrackToPlaylist` da seguinte forma:
@@ -124,9 +113,7 @@ Onde:
 
 Assim, repetir os processo para música que desejo adicionar a cada playlist encontrando-a pelo seu id.
 
----
-
-**d) Verifique se as músicas foram adicionadas corretamente.**
+**[✔] d) Verifique se as músicas foram adicionadas corretamente.**
 Para isso utilizei a `getPlaylistTracks` da seguinte forma:
 
 -   Em `getPlaylistTracks` > `Headers` :
