@@ -41,7 +41,7 @@ Hoje vamos treinar requisições usando o **Postman** e a API do **Labefy**.
 -   Adicione **duas músicas** em cada uma delas.
 -   Verifique se as músicas foram adicionadas corretamente.
 
-### 5. Exercício 
+### 5. Exercício 3
 
 -   Pesquise por uma das playlists que você criou.
 -   Remova uma música de uma playlist.
